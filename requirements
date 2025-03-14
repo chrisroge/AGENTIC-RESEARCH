@@ -1,0 +1,145 @@
+Build, Buy, Wait for the Graphite research and iterate writing solutions
+See below requirements, strategic considerations, and decision criteria.
+
+	Functional Requirement	Non-Functional Requirement
+Research Capability (e.g., GPT Deep Research)	1.	Data Integration:
+a.	Ability to pull data from multiple sources (e.g., user provided files, data fabric, databases, APIs, SharePoint, Granter, or other approved market research sources etc.).
+b.	Data parsing and support for various data formats (e.g., Primary: Word Doc, PDF; Secondary: PPT, Excel; Optional: JSON, XML, CSV, SQL).
+c.	Document extraction to capturing specific key elements from the source material. E.g., recognizing named entities (people, places, dates), extracting numerical data or statistics, and identifying patterns and trends critical to the research.
+2.	User Interaction and Customization
+a.	Advanced NLP capabilities to understand and process human language.
+b.	Contextual comprehension and user query refinement.
+c.	Customizable research scope (e.g., topics, data source pools, file types, etc.)
+3.	Core Research and Analysis
+a.	Summary generation
+b.	Capabilities to perform multi-step reasoning to extract deeper insights. E.g., system can combine information from multiple sources, evaluate conflicting viewpoints, and draw conclusions step-by-step to provide thoughtful and well-rounded insights.
+c.	Ability to track and connect related pieces of information across different sources to provide citations for reports generated. Citation generation in multiple formats (e.g., APA, MLA, Chicago).
+4.	Report Generation:
+a.	Automatic generation of comprehensive reports.
+b.	Summarize lengthy information into concise and clear sections.
+c.	Highlight the most important insights or key points from the research.
+d.	Allow users to define the layout and sections of the report (e.g., introduction, methodology, findings, conclusion).
+e.	Support for tailored formatting, such as headings, font styles, and spacing preferences.
+f.	Summarization of key insights and findings.
+g.	Nice to haves: Include relevant charts, graphs, or tables directly in the report for visual representation of data.
+5.	User Interface:
+a.	Intuitive and user-friendly interface.
+b.	Provide an interactive editor for users to tweak or modify report content before finalization.
+c.	Enable easy sharing options, such as email, export, or copy text/report.	1.	Performance:
+a.	High processing speed to handle large datasets.
+b.	Scalability to accommodate growing data and user demands.
+2.	Security:
+a.	Data encryption in transit and at rest.
+b.	Require secure authentication mechanisms, such as multi-factor authentication (MFA), for user access—ideally supports AFS SSO.
+c.	Compliance with federal security standards and regulations e.g., should be NIST compliant and can handle client data, CUI / AFS confidential data, FedRamped
+3.	Maintainability and Extensibility: 
+a.	Use a modular architecture to enable easy updates and integrations with other tools.
+b.	Maintain thorough documentation for developers, administrators, and users.
+c.	Design the system to accommodate emerging technologies or expanded use cases.
+4.	Reliability:
+a.	High availability and minimal downtime.
+b.	Robust error handling and recovery mechanisms.
+5.	Interoperability:
+a.	Compatibility with existing systems and workflows.
+b.	Easy integration with third-party tools and services.
+6.	Monitoring and Analytics:
+a.	Continuously track system performance and alert administrators to potential issues.
+b.	Collect anonymized data on usage patterns to inform system improvements.
+
++ any other standard NFRs for AFS that you know of.
+Iterate Writing Capability (e.g., GPT Canvas, Writer.com)	1.	Data Integration:
+a.	See above 
+b.	Ideally research and iterative writing are integrated to seamless go from one phase to the other.
+2.	User Interaction and Customization
+a.	Advanced NLP capabilities to understand and process human language.
+b.	Contextual comprehension and user query refinement for iterating drafts seamlessly.
+3.	Core Iterative Writing Experience
+a.	Develop a first draft utilizing boilerplate templates with sections like Introduction, Market research (industry trends), Problem outline, Accenture’s approach, and examples of previous work on LLP/AFS. It should be Context-aware generation based on user input/instructions and data sources.
+b.	Ability to track and connect related pieces of information across different sources to provide citations for reports generated. Citation generation in multiple formats (e.g., APA, MLA, Chicago).
+c.	Ability to rearrange sections easily.
+d.	Seamlessly interweave data/talking points from data sources or material provided by the user (via file upload or within the chat window). 
+e.	Enable the user to fine tune the draft. E.g., Emphasize or deemphasize talking points as needed.
+f.	User can refine the draft wholistically (entire prose) or partially (part of a sentence/word) for clarity, consistency, and relevance.
+g.	User can inline edit with GPT-powered suggestions.
+h.	Inline grammar, spelling, and clarity recommendations
+i.	Adjust length, tone, clarity, consistency, and highlight key points. Ensure specific examples align with source documents.
+j.	Ensure sentences are concise and flow well.
+k.	Maintain consistency in terminology and style, spelling out acronyms once, then using short-hand, and using a unified voice (e.g., "We" vs. "Accenture" vs. "AFS").
+l.	Nice to haves: Formatting guidance for embedding visuals seamlessly within the document. Version control to track changes and revert to earlier drafts. Real-time co-writing with team members, with role-based permissions. 
+4.	User Interface:
+a.	See above (export formats e.g., PDF, Word, Markdown, txt)	See above 
+
+Other Considerations: 
+Cost and Resource Requirements	Strategic Considerations
+1.	Cost Analysis:
+a.	Total cost of ownership (TCO) analysis
+b.	Licensing and subscription fees (if buying)
+c.	Development and maintenance costs (if building)
+2.	Resource Allocation:
+a.	Required technical expertise and team size.
+b.	Timeframe for development, implementation, and deployment.	1.	Market Analysis:
+a.	Evaluation of existing solutions in the market.
+b.	Competitive analysis and differentiation.
+2.	Vendor Evaluation (for buy option):
+a.	Reputation and reliability of the vendor.
+b.	Support and service level agreements (SLAs).
+3.	Future-Proofing:
+a.	Flexibility to adapt to future technological advancements.
+b.	Capability to incorporate new data sources and analysis techniques.
+4.	Risk Assessment:
+a.	Identification and mitigation of potential risks.
+b.	Contingency plans for unforeseen challenges.
+
+Decision Criteria Summary:
+•	Build: requires high customization, we have the necessary resources and expertise and can afford higher upfront costs with a flexible timeline.
+•	Buy: we need rapid deployment, seek lower upfront costs with predictable ongoing expenses, and prefer leveraging mature, feature-complete commercial solutions.
+•	Wait:  if the need is not urgent, or we anticipate significant technological advancements or better future options, and we aim to mitigate the risk of premature investment.
+
+Decision Criteria Details:
+Criteria for Building the Solution	Criteria for Buying the Solution	Criteria for Waiting
+1.	Control and Customization
+a.	High Need for Customization: The solution needs to be highly tailored to specific business requirements.
+b.	Full Control: Complete control over features, updates, and security.
+2.	Resources and Expertise
+a.	In-House Expertise: Availability of skilled personnel with the necessary technical expertise.
+b.	Resource Availability: Sufficient resources (time, budget, personnel) to support development and maintenance.
+3.	Cost
+a.	Long-term Investment: Willingness to invest in higher upfront costs with potential long-term cost savings.
+b.	Budget: Adequate budget for development, testing, and ongoing support.
+4.	Time
+a.	Flexible Timeline: No urgent need for immediate deployment, allowing time for development.
+b.	Future-Proofing: Ability to evolve the solution over time as needs and technology change.
+5.	Strategic Fit
+a.	Strategic Importance: Core to the strategic goals and competitive advantage of the organization.
+b.	Innovation and Differentiation: Opportunity to innovate and differentiate from competitors.	1.	Time to Market
+a.	Rapid Deployment: Need for a quick deployment and immediate use.
+b.	Market Availability: Availability of mature, reliable, and feature-complete commercial solutions.
+2.	Cost
+a.	Lower Upfront Costs: Lower initial costs compared to building in-house.
+b.	Predictable Costs: Predictable ongoing costs for licensing, support, and maintenance.
+3.	Functionality
+a.	Comprehensive Features: Commercial solutions meet most or all of the functional requirements.
+b.	Vendor Expertise: Access to vendor expertise, updates, and support.
+4.	Risk
+a.	Lower Risk: Reduced project risk compared to in-house development.
+b.	Vendor Reliability: Reliable vendors with proven track records and strong support.
+5.	Resources
+a.	Limited Resources: Limited in-house resources or expertise to develop the solution.
+b.	Focus on Core Activities: Ability to focus internal resources on core business activities.
+	1.	Market Readiness
+a.	Emerging Technology: Technology is still evolving, and waiting could result in better, more mature solutions.
+b.	Future Solutions: Anticipation of upcoming solutions that may better meet requirements.
+2.	Strategic Considerations
+a.	Non-Urgent Need: No immediate need for the solution, allowing time to wait for better options.
+b.	Strategic Timing: Alignment with future strategic initiatives or broader organizational timelines.
+3.	Cost and Resource Management
+a.	Budget Constraints: Current budget constraints but potential future availability of funds.
+b.	Resource Allocation: Current resource constraints but potential future availability of skilled personnel.
+4.	Technological Advancements
+a.	Advances Expected: Anticipation of significant technological advancements that could offer superior capabilities.
+b.	Standards and Regulations: Potential changes in standards, regulations, or compliance requirements.
+5.	Risk Mitigation
+a.	Risk of Premature Investment: Concern about investing in a solution that may become obsolete or inadequate.
+c.	Market Uncertainty: Uncertainty about market trends, vendor stability, or long-term viability of current solutions.
+
+
