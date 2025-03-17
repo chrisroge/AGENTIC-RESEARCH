@@ -1,3 +1,25 @@
+Depth of Evaluation: Do you want a high-level overview for each requirement or a more detailed technical analysis?
+A: We are looking for a yes/no/planned/unknown determination with some explanation as to how or why we reached the determination.
+
+Sources of Information: Should I prioritize official Microsoft documentation, industry reports, or expert analyses?
+A: Give the highest weight to official documentation, secondary weight to industry reports and expert analysis and the least weight to community speculation.
+
+Format Preference: Would you like responses in a structured table format, individual analysis per requirement, or a consolidated report?
+A: Inline as Response:  Following should be followed as a template:
+
+For Microsoft 365 Co-Pilot, evaluate Research capability for functional requirement category of Data Integration where Requirement is Ability to pull data from multiple sources (e.g., user provided files, data fabric, databases, APIs, SharePoint, Granter, or other approved market research sources etc.).
+
+Response:
+
+Timeframe Consideration: Should the evaluation focus only on currently available features, or should I include roadmap features and speculative capabilities?
+A: Current features may qualify as "Yes", roadmap, speculative as "plannned" with some indication of confidence level.
+
+Scope of Speculation: Should I make reasonable inferences based on industry trends and Microsoft's trajectory, or limit to what is explicitly mentioned in available sources?
+A: Yes, but you must note when you are making a reasonable inference in conrast with tangible research data.
+
+
+
+
 For Microsoft 365 Co-Pilot, evaluate Research capability for functional requirement category of Data Integration where Requirement is Ability to pull data from multiple sources (e.g., user provided files, data fabric, databases, APIs, SharePoint, Granter, or other approved market research sources etc.).
 
 Response:
