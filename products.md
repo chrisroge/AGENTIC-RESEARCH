@@ -1,3 +1,16 @@
+Certainly. I'll create a more consistent and concise version of the table, focusing on the key aspects for each solution. Here's the improved version:
+
+| Solution | FedRAMP Status | Collaboration Features | Data Integration | Agentic Functions |
+|----------|----------------|------------------------|------------------|-------------------|
+| Microsoft 365 Copilot | FedRAMP High (Azure Govt); GCC High expected Summer 2025 | Real-time co-authoring and AI suggestions in Office apps | Connects to M365 data; Bing plugin for web search; Extensible via plugins | Automates Office 365 tasks; Assists with data analysis and workflow automation |
+| Google Workspace Duet AI | FedRAMP High for core; Gemini AI FedRAMP High in progress | Real-time AI assistance in Google Docs/Sheets/Gmail | Leverages internal Google Drive, Gmail content; Limited direct web integration | Content generation; Basic scheduling and communication tasks; Some Calendar/Meet automation |
+| Primer (Delta & Command) | FedRAMP High/IL5 via Palantir FedStart; ATO on JWICS | AI-assisted report drafting with team sharing | Multi-source data integration: internal, OSINT, classified intel | Automates research tasks and report generation; No direct external actions |
+| Palantir AIP | FedRAMP High; DoD IL5/6 for higher classification | Collaborative data analysis in Palantir workspace; Human-in-loop AI supervision | Unified access to enterprise and mission data; Strong ontology for context | Can update records, call APIs, run code based on chat prompts; Allows automation of decisions and operations |
+| Moveworks | FedRAMP Ready (Feb 2025); Pursuing FedRAMP Moderate ATO | AI assistant in Teams/Slack for real-time user support | Connects to internal IT, HR, knowledge bases via plugins | Workflow automation for IT/HR tasks; Can autonomously resolve requests and perform multi-step actions |
+
+This table provides a more streamlined comparison of the key features across all solutions, maintaining consistency in the information presented for each category.
+
+
 Understood. I will research commercially available (COTS) solutions that provide deep research capabilities and an AI co-pilot for in-line text editing, with a focus on solutions that are already FedRAMP High authorized or are on the path to authorization. The research will also identify solutions with the ability to query private external data sources like Gartner, integrate real-time co-editing features, and potentially support advanced agentic capabilities such as executing workflows or interacting autonomously on behalf of users.
 
 I'll get back to you with a detailed analysis of available solutions.
