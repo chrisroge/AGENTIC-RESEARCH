@@ -1,14 +1,34 @@
-Certainly. I'll create a more consistent and concise version of the table, focusing on the key aspects for each solution. Here's the improved version:
 
 | Solution | FedRAMP Status | Collaboration Features | Data Integration | Agentic Functions |
 |----------|----------------|------------------------|------------------|-------------------|
 | Microsoft 365 Copilot | FedRAMP High (Azure Govt); GCC High expected Summer 2025 | Real-time co-authoring and AI suggestions in Office apps | Connects to M365 data; Bing plugin for web search; Extensible via plugins | Automates Office 365 tasks; Assists with data analysis and workflow automation |
+| Citations | [1], [2] | [3] | [2], [4] | [3] |
 | Google Workspace Duet AI | FedRAMP High for core; Gemini AI FedRAMP High in progress | Real-time AI assistance in Google Docs/Sheets/Gmail | Leverages internal Google Drive, Gmail content; Limited direct web integration | Content generation; Basic scheduling and communication tasks; Some Calendar/Meet automation |
+| Citations | [5], [6] | [7] | [7] | [7] |
 | Primer (Delta & Command) | FedRAMP High/IL5 via Palantir FedStart; ATO on JWICS | AI-assisted report drafting with team sharing | Multi-source data integration: internal, OSINT, classified intel | Automates research tasks and report generation; No direct external actions |
+| Citations | [8], [9] | [10] | [11], [12] | [13] |
 | Palantir AIP | FedRAMP High; DoD IL5/6 for higher classification | Collaborative data analysis in Palantir workspace; Human-in-loop AI supervision | Unified access to enterprise and mission data; Strong ontology for context | Can update records, call APIs, run code based on chat prompts; Allows automation of decisions and operations |
+| Citations | [14] | [15] | [15] | [15] |
 | Moveworks | FedRAMP Ready (Feb 2025); Pursuing FedRAMP Moderate ATO | AI assistant in Teams/Slack for real-time user support | Connects to internal IT, HR, knowledge bases via plugins | Workflow automation for IT/HR tasks; Can autonomously resolve requests and perform multi-step actions |
+| Citations | [16] | [16] | [16] | [16] |
 
-This table provides a more streamlined comparison of the key features across all solutions, maintaining consistency in the information presented for each category.
+Citations:
+[1] https://techcommunity.microsoft.com/discussions/microsoft365copilot/azure-openai-fedramp-high--m365-copilot-targeting-ga-for-gcc-high-and-dod-by-september-2025/4223788
+[2] https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy
+[3] https://techcommunity.microsoft.com/blog/publicsectorblog/azure-openai-service-is-fedramp-high-and-copilot-for-microsoft-365-gcc-high-and-/4222955
+[4] https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy
+[5] https://workspace.google.com/industries/government/
+[6] http://workspaceupdates.googleblog.com/2024/10/gemini-for-workspace-fedramp-high-authorization.html
+[7] https://workspace.google.com/blog/identity-and-security/protecting-your-data-era-generative-ai
+[8] https://primer.ai/news/primer-ai-announces-fedramp-security/
+[9] https://primer.ai/primer-delta/
+[10] Inferred from product description
+[11] https://primer.ai/primer-command/
+[12] https://primer.ai/primer-delta/
+[13] https://primer.ai/
+[14] https://executivebiz.com/2024/12/palantir-fedramp-high-baseline-authorization/
+[15] https://blog.palantir.com/turning-conversation-into-action-c6bc4ed8c8be
+[16] https://www.moveworks.com/us/en/resources/blog/moveworks-achieves-fedramp-ready-designation
 
 
 Understood. I will research commercially available (COTS) solutions that provide deep research capabilities and an AI co-pilot for in-line text editing, with a focus on solutions that are already FedRAMP High authorized or are on the path to authorization. The research will also identify solutions with the ability to query private external data sources like Gartner, integrate real-time co-editing features, and potentially support advanced agentic capabilities such as executing workflows or interacting autonomously on behalf of users.
