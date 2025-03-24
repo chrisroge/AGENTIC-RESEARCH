@@ -1,0 +1,66 @@
+Research and understanding availability of "deep research" agentic platforms or tools which can semantically search internal Fed-ramp data as well as public/private API accessible or browser accessible data to form a comprehensive understanding and solve business problems. 
+
+Requirements:
+1. Deep research spanning internal and external data
+2. Cab be hosted in a private cloud (Fed-ramp) environment 
+3. No data is retained or utilized for future model training
+
+The platform or tool performing deep research must be hosted in or run within a private cloud, such as a Fed-ramp AWS VPC, and can search/crawl internal an external data. 
+
+The platform or tool should be able to interact with command line, bash prompt, browser, operating system.  We are looking for a fully agentic approach to deep research. 
+
+We must avoid any models which can share or train on our data. 
+
+All security considerations should be well understood, we are not at this time evaluating specific security standards. 
+
+Our preference is commercial off the shelf but we will consider open source solutions 
+
+Could you clarify a few points to refine the research:
+
+- **Internal Data Sources**: Are there specific internal data sources or databases (e.g., proprietary datasets, document management systems) that the platform needs to integrate with?
+- **APIs & Browsers**: Should the tool support only structured API calls, or should it also be capable of scraping web-based content?
+- **Operating System Interaction**: Should the tool be able to execute OS-level commands (e.g., file system interactions, executing scripts)?
+- **Preferred Commercial or Open Source Solutions**: While you prefer COTS solutions, would you be open to hybrid solutions (e.g., open-source with commercial support)?
+- **Compliance Considerations**: While security standards are not the focus, should FedRAMP Moderate/High compliance be an implicit requirement?
+- **Preferred AI Model Type**: Do you prefer symbolic AI, large language models (LLMs) with strict data isolation, or hybrid AI approaches?
+
+Providing these details will help pinpoint the most suitable platforms.
+
+
+Our preference is commercial off the shelf but we will consider open source solutions 
+
+Internal Data sources can be any API accessible data sources, prioritize semantic search, assume we need some capability to generate embeddings for internal data
+
+We should consider the need for agents to utilize tools in a human like fashion, such as interacting with SAAS solutions via browser
+
+OS level is a plus, the ability to generate and run logic can only enhance the overall agentic capability
+
+LLM, strict data isolation, hybrid is no critical
+
+
+
+# Prompt Summary
+# Research Statement: Agentic Deep Research Platforms for FedRAMP Environments
+
+## Objective
+Research and evaluate available "deep research" agentic platforms that can semantically search internal FedRAMP-compliant data as well as public/private API and browser-accessible data to form comprehensive understanding and solve business problems.
+
+## Core Requirements
+1. Deep research capabilities spanning both internal and external data sources
+2. Must be hostable in a private cloud (FedRAMP) environment
+3. No data retention or utilization for future model training by the vendor
+4. Semantic search functionality with ability to generate embeddings for internal data
+5. Agentic capabilities to interact with command line, bash prompts, browsers, and operating systems
+6. Commercial off-the-shelf solutions preferred, but open-source solutions will be considered
+
+## Technical Specifications
+- **Data Sources Integration**: Platform should support API-accessible data sources with semantic search capabilities
+- **Tool Interaction**: Agents should utilize tools in a human-like fashion, including interacting with SaaS solutions via browser
+- **Operating System Access**: OS-level interaction capabilities are desired to enhance overall agentic functionality
+- **AI Approach**: Large Language Models with strict data isolation; hybrid approaches are not critical
+- **Security Context**: All security considerations should be well-understood, though specific security standards evaluation is not within current scope
+
+## Additional Considerations
+- **Compliance**: While not the primary focus, FedRAMP compliance is an essential requirement
+- **Data Independence**: Must avoid any models which can share or train on organizational data
+- **Agentic Capabilities**: Looking for fully agentic approach that can generate and run logic to enhance research capabilities
