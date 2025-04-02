@@ -1,0 +1,19 @@
+Conduct a comprehensive analysis of AI implementation options for a large government/defense organization, focusing on Microsoft 365 Copilot, ChatGPT Gov, and FedGPT. Your analysis should cover:
+
+Feature comparison: Detail the capabilities of each solution, particularly for enterprise-level AI tasks in government and defense contexts.
+
+Implementation requirements: Outline the technical, infrastructure, and skill requirements for each option.
+
+Integration challenges: Investigate potential obstacles in deploying these solutions within a complex IT environment like AFS, considering factors such as security, compliance, and existing systems.
+
+Cost structure analysis: a. Licensing fees b. Implementation costs, including potential 5-10x longer timelines and 10-20x higher expenses in the AFS environment c. Ongoing support and maintenance costs d. Total Cost of Ownership (TCO) over a 5-year period
+
+Alignment with specific needs: a. Evaluate how each solution addresses the Graphite-specific requirements mentioned b. Assess the incremental costs and efforts required to implement these requirements on top of standard implementations
+
+Resource requirements: a. Estimate the number and type of FTEs needed for implementation and ongoing support b. Consider the impact of limited preexisting knowledge, infrastructure, and skills within the organization
+
+Roadmap development: a. Create a high-level implementation roadmap for each option b. Identify key milestones and potential bottlenecks
+
+Risk assessment: a. Evaluate potential risks associated with each option b. Propose mitigation strategies
+
+Your analysis should provide decision-makers with a clear understanding of the trade-offs between building custom solutions, buying off-the-shelf products, or waiting for more mature options. Include recommendations based on the organization's specific context and requirements.
