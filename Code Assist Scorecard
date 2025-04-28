@@ -1,1 +1,28 @@
+# Initial Prompt
+We need to devise a scorecard that will measure key features important to developers of agentic AI code assist applications/tools/platforms
 
+While we are not at this time interested in selecting and scoring real applications/tools/platforms at this time we do realize it will be helpful to include tools such as Cursor IDE Agent, Continue.dev, GitHub Co-Pilot in your research in order to help identify features that will provide perceived value to developers and to organizations.
+
+1. Research common features
+2. Assemble to a scorecard template
+3. Include your reasoning for identification and inclusion of each feature
+4. Note any features which you considered but did not include in the final scorecard template
+
+Our focus is on the developer experience but we must as a baseline score key features such as GCC Availability (which as a reminder largely covers practically all other security concerns) but then focus the remaining scorecard on Agentic AI features, MCP availability, and application features important to developers such as confident file edits by agentic AI.  Ability to use AWS Bedrock for model must also be a evaluation criteria.
+
+Again, at this time we are focused on producing a solution agnostic scorecard but are only considering leading contemporary solutions as a thoughtful example to facilitate research.
+
+# Clarifying Questions
+How many total features or dimensions would you ideally like to see included in the scorecard?
+A: We need to abstract features such that we end with some handful of towers such as GCC Availability|Confident File Updates by Agentic AI|Bedrock Availability|Developer Feature 1|Developer Feature 2|...
+
+Should each feature have a standard scoring scale (e.g., 1–5 or 1–10)?
+A: 1-5
+
+Should we weight features differently based on importance (e.g., Agentic capabilities vs. baseline availability like GCC)?
+A: Yes
+
+Would you like this scorecard to be optimized for evaluation by individual developers, enterprise teams, or both?
+A: Should be easy to understand, a concise and directionally accurate scorecard template
+
+# Initial Response (ChatGPT o1 Deep research)
