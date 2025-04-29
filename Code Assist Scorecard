@@ -13,17 +13,21 @@ Our focus is on the developer experience but we must as a baseline score key fea
 Again, at this time we are focused on producing a solution agnostic scorecard but are only considering leading contemporary solutions as a thoughtful example to facilitate research.
 
 # Clarifying Questions
-How many total features or dimensions would you ideally like to see included in the scorecard?
-A: We need to abstract features such that we end with some handful of towers such as GCC Availability|Confident File Updates by Agentic AI|Bedrock Availability|Developer Feature 1|Developer Feature 2|...
+Audience Focus: Should the scorecard weigh features more heavily if they impact individual developer productivity, enterprise adoption, or both?
+A; Both
 
-Should each feature have a standard scoring scale (e.g., 1–5 or 1–10)?
+Evaluation Scale: Would you like a recommended scoring range (e.g., 1-5, 1-10) included with the scorecard template?
 A: 1-5
 
-Should we weight features differently based on importance (e.g., Agentic capabilities vs. baseline availability like GCC)?
+Depth: Should the scorecard include subcriteria or weighted scoring (e.g., "Agentic Actions" broken into "File Editing Confidence," "Multi-step Planning," etc.)?
+A: We should focus on top criteria
+
+Related to MCP (Multi-Command Planning): Should I treat MCP as its own main feature category or as a subfeature under broader Agentic Capabilities?
+A: Main feature
+
+Must-cover Tools: You mentioned Cursor IDE Agent, Continue.dev, GitHub Co-Pilot. Should I also lightly check others like Tabnine, Amazon CodeWhisperer, or Replit Ghostwriter as auxiliary examples?
 A: Yes
 
-Would you like this scorecard to be optimized for evaluation by individual developers, enterprise teams, or both?
-A: Should be easy to understand, a concise and directionally accurate scorecard template
 
 # Initial Response (ChatGPT o1 Deep research)
 ### 🔄 Revised Tower #5 — *Model-Integration, Confidence & Guardrails*  
@@ -70,3 +74,21 @@ Below is the updated definition and 1-to-5 scale you can drop into the scorecard
 3. **Retain weighting** the same as before (unless you’d like to raise this tower’s weight now that advice quality is assumed equal).
 
 Let me know if you’d like the full scorecard template re-rendered with this change or further tweaks to other towers!
+
+
+# Prompt for Initial Scorecard
+Considering real world testimonials of developers and experts and real world metrics, compare leading Agentic AI Coding solutions such as Cursor, Cline and Continue.dev using this scorecard template
+
+### Clarifying questions
+Should the comparison focus only on publicly available sources like testimonials, reviews, GitHub issues, blogs, and product docs, or can it also include subjective insights from expert commentary (e.g., well-known developers on Twitter, YouTube, etc.)?
+A: Subjective insights are welcome if consistent with more concrete sources
+
+Would you like the comparison to include direct 1–5 ratings for each tower per tool, along with a short rationale per rating?
+A: Follow the scorecard we discussed
+
+Are there any specific versions (e.g., latest as of April 2025) or deployment modes (local/cloud/enterprise) you want me to prioritize when assessing each tool?
+A: No, version is not important
+
+# Response
+
+
