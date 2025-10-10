@@ -198,10 +198,34 @@ QUALITY BAR
 - Always include a quick “How to verify” block and `/hooks` review step.
 
 # Create Hook
+"Using hooks-builder, create a PostToolUse hook that automatically injects
+   a follow-up prompt after ANY tool execution, asking Claude to briefly
+  justify: (1) why that specific tool was chosen, (2) which alternatives
+  were considered, and (3) what signal triggered the choice (e.g., file
+  pattern, prior error, user request).
+
+  Key requirements:
+  - Hook should output JSON with hookSpecificOutput.additionalContext field
+  containing the justification prompt
+  - Apply to all tools using appropriate matcher
+  - Ensure the hook script is added to the permissions allowlist in settings
+  - The additionalContext will appear to Claude as a system prompt
+  requesting the justification
+
+  Keep the justification prompt concise (2-3 sentences) and make sure the
+  hook exits successfully so it doesn't block tool execution.
 
 # Create Slash Command
-  Using slash-command-builder 
+Using slash-command-builder agent, create a "slash command": "/readme-refresh" that re-builds our README.md file based on the latest changes to the project
 
+
+# Planning
+We are planning to build a simple chess app where we can explore chess 
+concepts.  We will use battle tested solutions to ensure a straightforward 
+build -- use https://official-stockfish.github.io/docs/stockfish-wiki/Compil
+ing-from-source.html to compile Stockfish binary from source, use 
+https://github.com/jhlywa/chess.js to build a ultra simple chessboard app 
+where Stockfish will play against Stockfish, keep it simple.
 
 
 
