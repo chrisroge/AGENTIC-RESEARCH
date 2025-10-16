@@ -1,0 +1,21 @@
+PS C:\Users> npm uninstall -g @anthropic-ai/claude-code
+
+removed 2 packages in 528ms
+PS C:\Users> npm install -g @anthropic-ai/claude-code
+
+added 12 packages in 2s
+
+11 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users> claude
+claude : The term 'claude' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ claude
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (claude:String) [], CommandNotFoundExceptio 
+   n
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users> 
