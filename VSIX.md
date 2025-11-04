@@ -1,0 +1,1 @@
+https://afsdefense.sharepoint.us/sites/KBR/Technology%20Support/Forms/AllItems.aspx?csf=1&web=1&e=pZMLMH&CID=c1e8e536%2Dc6a7%2D4c5c%2D8f17%2D86e3c9093c22&FolderCTID=0x012000E58369796384B04A8F9646B791C40460&id=%2Fsites%2FKBR%2FTechnology%20Support%2FGen%20AI%20Code%20Assist%2FVSIX%20Install%20Files
